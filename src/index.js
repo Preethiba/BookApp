@@ -1,12 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-
-//Create a new component. This component should produce some HTML
-class App extends Component {
-  render() {
-    return <div>React</div>;
-  }
-}
+import App from 'components/app';
 
 //Take this component's generated HTML and put it on the page (DOM)
 //App - component class

@@ -1,5 +1,7 @@
 //These components have direct connection with redux
 import React, { Component } from 'react';
+//To create a connection between the redux and the booklist component
+import { connect } from 'react-redux';
 
 class BookList extends Component {
   renderedBooks() {
